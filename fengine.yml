@@ -1,0 +1,11 @@
+port:
+  9090
+base:
+  /statics
+layout:
+  /layout/default.html
+data:
+  name:
+    国信通
+  version:
+    dev
