@@ -1,0 +1,52 @@
+.ui-panel-title,
+.ui-panel-btn,
+.panel-file-list{
+  padding: 1em 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+.ui-panel-title{
+  font-size: 16px;
+  text-align: center;
+}
+.ui-panel-title h2 span{
+  color: red;
+}
+.ui-panel-btn button {
+  padding: .5em 1em;
+  background: #0e7fd4;
+  color: #fff;
+  border: 1px solid #2d78f4;
+  outline: none;
+}
+/*.btn-add:focus,
+.btn-delete-all {
+  outline: none;
+  border: 1px solid #b2b2b2;
+}*/
+table {
+  border-collapse: collapse;
+  width: 100%;
+  empty-cells: show;
+}
+table td,
+table th {
+  padding: 1em 0;
+  border-bottom: 1px solid #f0f0f0;
+  text-align: center;
+}
+td img{
+  width:60px;
+  height:40px;
+}
+.ui-panel-show,
+.ui-panel-edit,
+.ui-panel-delete {
+  padding: .3em .5em;
+  background: #0e7fd4;
+  color: #fff;
+  border: 1px solid #2d78f4;
+  outline: none;
+}
+table tr:nth-child(odd) td {
+  background: #f0f0f0;
+}

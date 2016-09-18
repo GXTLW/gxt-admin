@@ -1,0 +1,23 @@
+.ui-panel-title,
+.ui-panel-btn,
+.ui-panel-article {
+  padding: 1em 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+.btn-edit,
+.btn-back {
+  padding: .5em 1em;
+  background: #0e7fd4;
+  color: #fff;
+  border: 1px solid #2d78f4;
+  outline: none;
+}
+ul.edit-list li {
+  padding: 1em 1em;
+}
+ul.edit-list li strong {
+  width: 16.7%;
+}
+.article-content{
+  padding-top: 1em;
+}

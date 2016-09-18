@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>网站后台管理系统</title>
+    <link rel="stylesheet" type="text/css" href="/assets/css/default/base.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/default/views/common.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/default/{{dirname}}{{filename}}.css">
+  </head>
+  <body>
+    <!--[if lt IE9]>
+    <script type="text/javascript">
+      (function(){
+        if(!/*@cc_on!@*/0)
+          return;
+        var e ="abbr, article, aside, audio, canvas, datalist, details, dialog, eventsource, figure, footer, header, hgroup, mark, menu, meter, nav, output, progress, section, time, video".split(',');
+        var i= e.length;
+        while (i--){
+          document.createElement(e[i]);
+        }
+      })()
+    </script>
+    <![endif]-->
+    <!--include(/modules/header.html)-->
+    <div class="ui-main-left">
+      <!--include(/modules/aside.html)-->
+    </div>
+    <div class="ui-main-right">
+      <!--slot-->
+      <footer class="ui-footer">
+        Copyright &copy; 2016 深圳国信通劳务有限公司 All Rights Reserved
+      </footer>
+    </div>
+  </body>
+</html>
