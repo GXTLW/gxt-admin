@@ -1,4 +1,5 @@
 
+<!--suppress ALL -->
 <section class="ui-panel">
   <div class="ui-panel-title">
     您当前的位置：<a href="/statics/views/image/list.html">图片管理</a> &gt; <a href="/statics/views/image/add.html">添加图片</a>
@@ -11,12 +12,12 @@
       <ul class="edit-list">
         <li>
           <strong>图片标题：</strong>
-          <input type="text" class="text-title">
+          <input type="text" class="text-title" name="title">
           <span> <span class="must">*</span> 必填 不可重复</span>
         </li>
         <li>
           <strong>所属栏目：</strong>
-          <select class="belong-list">
+          <select class="belong-list" name="belong">
             <option>公司资质</option>
             <option>合作用户</option>
             <option>Banner图片</option>
@@ -25,17 +26,17 @@
         </li>
         <li>
           <strong>图片来源：</strong>
-          <input type="text" class="text-source">
+          <input type="text" class="text-source" name="source">
           <span> 选填 </span>
         </li>
         <li>
           <strong>修改时间：</strong>
-          <input type="text" class="text-change-time">
+          <input type="text" class="text-change-time" name="time">
           <span> <span class="must">*</span> 必填</span>
         </li>
         <li>
           <strong>修&ensp;改&ensp;人：</strong>
-          <input type="text" class="text-changer">
+          <input type="text" class="text-changer" name="changer">
           <span> <span class="must">*</span> 必填</span>
         </li>
         <li>
