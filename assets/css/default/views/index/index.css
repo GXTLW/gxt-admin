@@ -12,6 +12,7 @@
   color: red;
 }
 .ui-panel-btn button {
+  margin-left: 1em;
   padding: .5em 1em;
   background: #0e7fd4;
   color: #fff;

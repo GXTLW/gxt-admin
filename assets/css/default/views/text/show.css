@@ -6,6 +6,7 @@
 }
 .btn-edit,
 .btn-back {
+  margin-left: 1em;
   padding: .5em 1em;
   background: #0e7fd4;
   color: #fff;

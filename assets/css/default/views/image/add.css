@@ -5,6 +5,7 @@
   border-bottom: 1px solid #f0f0f0;
 }
 .btn-back {
+  margin-left: 1em;
   padding: .5em 1em;
   background: #0e7fd4;
   color: #fff;
@@ -87,6 +88,7 @@ select.belong-list:focus {
 }
 .ui-panel-body input[type='submit'],
 .ui-panel-body input[type='reset'] {
+  margin-left: 1em;
   padding: .5em 1em;
   background: #0e7fd4;
   color: #fff;
